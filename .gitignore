@@ -1,0 +1,10 @@
+*~
+db/*
+dbd/*
+bin/*
+*/O.*/*
+*/**/O.*/*
+lib/*
+.cproject
+.project
+.settings
