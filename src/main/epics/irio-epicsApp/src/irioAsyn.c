@@ -30,7 +30,7 @@ static void gettingDBInfo(initHookState state)
 	int i=0,j=0;
 
 	switch (state){
-	case initHookAtBeginning:
+    case initHookAfterInitDatabase:
 		if (call_gettingDBInfo==0){
 			for(j=0;j<MAX_NUMBER_OF_CARDS;j++){
 				if(globalData[j].init_success==1){
